@@ -1,0 +1,66 @@
+/* Our job in this exercise is to fix the order rules
+in order to have the expected result */
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.para,
+.small-para {
+  color: hsl(0, 0%, 0%);
+  font-weight: 800;
+}
+
+/* they need chaining here ,
+for the 2nd p to be smaller with a bolder font*/
+
+.para.small-para {
+  font-size: 14px;
+  font-weight: 800;
+}
+
+.small-para {
+  font-size: 14px;
+  font-weight: 800;
+}
+
+.para {
+  font-size: 22px;
+}
+
+/* the easy route will be using #confirm-button with the .confirm rule */
+/* .confirm {
+  background: green;
+  color: white;
+  font-weight: bold;
+} */
+
+/* the second one works so i'll leave it as it is 
+even though it's weird */
+
+#confirm-button {
+  background: green;
+  color: white;
+  font-weight: bold;
+}
+
+.button {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+}
+
+/* using chaining here worked as well
+i targeted the .child.text since it naturally has smaller font-size
+than the other one */
+.child.text {
+  color: rgb(0, 0, 0);
+  font-weight: 800;
+  font-size: 14px;
+}
+
+div.text {
+  color: rgb(0, 0, 0);
+  font-size: 22px;
+  font-weight: 100;
+}
