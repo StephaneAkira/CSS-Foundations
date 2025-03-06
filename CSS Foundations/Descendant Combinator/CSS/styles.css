@@ -1,0 +1,9 @@
+/*  This is an example of descendant combinator */
+/* in the example below the style will only apply to the p elements nested inside the div element */
+
+div p {
+  background-color: rgb(255, 255, 0);
+  color: rgb(255, 0, 0);
+  font-size: 20px;
+  text-align: center;
+}
