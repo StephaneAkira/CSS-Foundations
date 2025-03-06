@@ -1,0 +1,11 @@
+/* This is How Chaining works */
+
+.avatar.propertioned {
+  width: 300px;
+  height: auto;
+}
+
+.avatar.distorted {
+  width: 200px;
+  height: 400px;
+}
