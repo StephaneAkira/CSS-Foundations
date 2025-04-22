@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+body {
+  height: 100vh;
+  margin: 0;
+  overflow: hidden;
+  font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
+  /* not needed */
+  /* align-items: center;
+  justify-content: space-between; */
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: flex-start; */
+  /* flex: 1 1 auto; */
+}
+/* .left-links,
+.right-links {
+  padding: 8px;
+  display: flex;
+  gap: 16px;
+} */
+
+/* this just centers everything in this container
+ */
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 16px;
+  flex: 1;
+}
+/* this align items on the cross axis at the bottom
+and put space between items on the main axis */
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  flex: 1;
+  background: #eee;
+}
+img {
+  width: 600px;
+}
+
+button {
+  font-family: Roboto, sans-serif;
+  border: none;
+  border-radius: 8px;
+  background: #eee;
+}
+
+input {
+  border: 1px solid #ddd;
+  border-radius: 16px;
+  padding: 8px 24px;
+  width: 400px;
+}
+a {
+  text-decoration: none;
+  color: #666;
+}
+
+/* sets all the ul as flex row */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  gap: 16px;
+  display: flex;
+}

@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* .header is our flexbox-container */
+.header {
+  font-family: monospace;
+  background: papayawhip;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  align-items: center;
+}
+
+.logo {
+  font-size: 48px;
+  font-weight: 900;
+  color: tomato;
+  background: white;
+  padding: 4px 32px;
+  /* No need to use those */
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+
+/* No need to use those */
+/* .left-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.right-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+ul {
+  /* this removes the dots on the list items*/
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  /* justify-content: flex-start; */
+  gap: 10px;
+}
+
+a {
+  font-size: 22px;
+  background: white;
+  padding: 8px;
+  /* this removes the line under the links */
+  text-decoration: none;
+}
